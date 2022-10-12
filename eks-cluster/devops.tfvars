@@ -1,0 +1,12 @@
+aws_account = "Account-Name-Here"
+userarn = ["userarn-here"]
+username = ["username-here"]
+groups = ["usergroup-here"]
+vpc_private_subnets = ["list-of-private-subnets-here"]
+vpc_cidr = "vpc-id-here"
+region = "region-here"
+min_size = 1
+max_size = 2
+desired_size = 1
+instance_types = ["t3.large", "t2.medium"]
+capacity_type = "SPOT"
